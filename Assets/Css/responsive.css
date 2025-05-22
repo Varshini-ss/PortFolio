@@ -1,0 +1,653 @@
+@media screen and (max-width:485px) {
+    .hide{
+        display: none;
+    }
+    .navbar>.ul1 .menu{
+        display: flex;
+    }
+    .navbar>.ul1>.li1{
+        padding-right: 5px; 
+        padding-left: 0; 
+        font-size: 30px; 
+    }
+    .navbar>.ul1>.li2{
+        padding-right: 15px;
+        padding-left: 10px;      
+    }
+    .ul1 button{
+        padding: 10px 15px;
+        line-height: 12px;
+    }
+    li.menu{
+        padding-left: 0;
+        padding-top: 20px;
+    }
+    li.li2{
+        padding-top: 15px;
+    }
+    .main1{
+        grid-template-columns: 1fr;  
+        height: auto;  
+    }
+    .main1-img{
+        padding: 50px 10px 0 20px;
+    }
+    .main1-img img{
+        padding-top: 40px;
+        width: 100%;
+        height: 90%;
+    }
+    .main1-text{
+        padding: 10px 40px 40px 40px;
+    }
+    .main1-text #name{
+        font-size: 42px;
+    }
+    .main1-text #last{
+        font-size: 42px;
+    }
+    @keyframes typing{
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 56%;
+        }
+    }
+    .main1-text .button{
+        padding: 10px 20px;
+    }
+    #stroke {
+        font-size: 5rem;
+    }
+    #stroke-overlap {
+        font-size: 37px;
+        bottom: 90px;
+    }
+    .about-content{
+        flex-wrap: wrap;
+    }
+    .about-img img {
+        width: 80%; 
+        height: auto;
+        padding-top: 20px;
+    }
+    .about-head {
+      align-content: center;
+      text-align: center;
+      padding-top: 30px;
+    }
+    .about-img{
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .about-info {
+        flex-direction: column;
+    }
+    .about-info .info{
+        width: 90%;
+    }
+    .about-text{
+        padding: 0 10px 0 40px;
+    }
+    .about-text h1 {
+        font-size: 29px; 
+    }
+    .about-text p {
+        width: 90%;
+        font-size: 16px; 
+    }
+    .quality-head {
+        align-content: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+    #quality-stroke {
+        font-size: 5rem;
+    }
+    #quality-stroke-overlap {
+        font-size: 29px;
+        bottom: 85px;
+    }
+    /* Education Section */
+    .education h1 {
+        font-size: 27px;
+    }
+    .education-main {
+        padding: 0 40px;
+    }
+    .cont2{
+        margin-top: 30px;
+    }
+    .education-content .education-box {
+        width: 100%;
+    }
+
+    .education-details {
+        grid-template-columns: 1fr;
+    }
+    /* Project Section */
+    .Project-main {
+        padding: 0 30px;
+    }
+    .project h1{
+        font-size: 27px;
+    }
+    .Project-content {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .Project-box h1 {
+        font-size: 24px;
+    }
+
+    .Project-box h3 {
+        font-size: 18px;
+    }
+    .Project-box {
+        width: 90%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .Project-box p {
+        font-size: 14px;
+    }
+    .skill-head{
+        height: 130px;
+        align-content: center;
+        text-align: center;
+        padding-top: 30px;
+    }
+    #skill-stroke {
+        font-size: 5rem;
+    }
+    #skill-stroke-overlap {
+        font-size: 30px;
+        bottom: 90px;
+    }
+    .skill-part{
+        margin-left: 10px;
+    }
+    .skill-name{
+        width: 90%;
+    }
+    .skill-name h1 {
+        font-size: 27px;
+        padding-bottom: 10px;
+    }
+    .skill-cont{
+        margin: 0 10%;
+       justify-content: center;
+    }
+    .contact-head{
+        height: 110px;
+        padding: 30px 0 0 0;
+        align-content: center;
+        text-align: center;
+    }
+    #contact-stroke {
+        font-size: 5rem;
+    }
+    #contact-stroke-overlap {
+        font-size: 30px;
+        bottom: 90px;
+    }
+    .contact-form {
+        width: 90%;
+        margin: 30px 10px 0 10px;
+    }
+    .contact-form .input1, .contact-form .input2 {
+        width: 90%;
+    }
+    .contact-form button {
+        width: 130px;
+        
+    }
+    .logo-content h1 {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    .logo-main i {
+        font-size: 20px;
+        padding: 5px;
+    }
+    .logo {
+        height: 150px;
+    }
+}
+
+
+/* Tab Screen */
+
+@media screen and (min-width:485px) and (max-width:790px){
+    .hide{
+        display: none;
+    }
+    .navbar>.ul1 .menu{
+        display: flex;
+    }
+    .navbar>.ul1>.li1{
+        padding-right: 70px;  
+        font-size: 32px; 
+        padding-left: 0;
+    }
+    .navbar>.ul1>.li2{
+        padding-left: 20px;      
+    }
+    .ul1 button{
+        padding: 10px 15px;
+        line-height: 12px;
+    }
+    li.menu{
+        padding-top: 20px;
+    }
+    li.li2{
+        padding-top: 15px;
+    }
+    .main1{
+        grid-template-columns: 1fr;  
+        height: auto;  
+    }
+    .main1-img{
+        padding: 50px 10px 0 20px;
+        text-align: center;
+    }
+    .main1-img img{
+        padding-top: 40px;
+        width: 465px;
+        height: 475px;
+    }
+    .main1-text{
+        padding: 10px 60px 40px 60px;
+    }
+    .main1-text #name{
+        font-size: 58px;
+    }
+    .main1-text #last{
+        font-size: 58px;
+    }
+    @keyframes typing{
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 50%;
+        }
+    }
+    .main1-text .button{
+        padding: 15px 30px;
+
+    }
+    #stroke {
+        font-size: 6rem; 
+    }
+    #stroke-overlap {
+        font-size: 37px;
+        bottom: 100px;
+    }
+    .about-content{
+        flex-wrap: wrap;
+    }
+    .about-img img {
+        width: 60%; 
+        height: auto;
+        padding-top: 20px;
+    }
+    .about-head {
+      align-content: center;
+      text-align: center;
+      padding-top: 25px;
+    }
+    .about-img{
+        padding: 10px 20px;
+        text-align: center;
+    }
+    .about-info {
+        flex-wrap: wrap;
+    }
+    .about-info .info{
+        width: 90%;
+    }
+    .about-text{
+        padding: 0 10px 0 50px;
+    }
+    .about-text h1 {
+        font-size: 29px; 
+    }
+
+    .about-text p {
+        width: 90%;
+        font-size: 16px; 
+    }
+    .quality-head {
+        align-content: center;
+        text-align: center;
+        padding-top: 25px;
+    }
+    #quality-stroke {
+        font-size: 6rem;
+    }
+    #quality-stroke-overlap {
+        font-size: 37px;
+        bottom: 100px;
+    }
+
+    /* Education Section */
+    .education h1 {
+        font-size: 27px;
+        padding-top: 40px;
+    }
+    .education-main {
+        padding: 0 40px;
+    }
+    .cont2{
+        margin-top: 30px;
+    }
+    .education-content .education-box {
+        width: 100%;
+    }
+
+    .education-details {
+        grid-template-columns: 1fr;
+    }
+    /* Project Section */
+    .Project-main {
+        padding: 0 30px;
+    }
+    .project h1{
+        font-size: 27px;
+    }
+    .Project-content {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .Project-box h1 {
+        font-size: 24px;
+    }
+
+    .Project-box h3 {
+        font-size: 18px;
+    }
+    .Project-box {
+        width: 90%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    .Project-box p {
+        font-size: 14px;
+    }
+    .skill-head{
+        height: 150px;
+        padding-top: 25px;
+    }
+    #skill-stroke {
+        font-size: 6rem;
+    }
+    #skill-stroke-overlap {
+        font-size: 39px;
+        bottom: 105px;
+    }
+    .skill-part{
+        margin-left: 10px;
+    }
+    .skill-name{
+        width: 90%;
+    }
+    .skill-name h1 {
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    .skill-cont{
+        margin: 0 10%;
+    }
+    .contact-head{
+        height: 140px;
+        padding: 25px 0 0 0;
+        align-content: center;
+        text-align: center;
+    }
+    #contact-stroke {
+        font-size: 6rem;
+    }
+    #contact-stroke-overlap {
+        font-size: 39px;
+        bottom: 105px;
+    }
+    .contact-form {
+        width: 90%;
+        margin: 30px 10px 0 10px;
+    }
+    .contact-form .input1, .contact-form .input2 {
+        width: 90%;
+    }
+    .contact-form button {
+        width: 130px;
+       
+    }
+    .logo-content h1 {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    .logo-main i {
+        font-size: 22px;
+        padding: 5px;
+    }
+    .logo {
+        height: 190px;
+    }
+}
+
+
+
+
+/* Laptop screen */
+@media screen and (min-width:790px) and (max-width:1200px){
+    .hide{
+        display: none;
+    }
+    .navbar>.ul1 .menu{
+        display: flex;
+    }
+    .navbar>.ul1>.li1{
+        padding-right: 235px;  
+        font-size: 34px; 
+        padding-left: 0;
+    }
+    .navbar>.ul1>.li2{
+        padding-left: 20px;      
+    }
+    .ul1 button{
+        padding: 10px 25px;
+        line-height: 12px;
+    }
+    li.menu{
+        padding-top: 20px;
+    }
+    li.li2{
+        padding-top: 15px;
+    }
+    .main1{
+        grid-template-columns: 1fr 1fr;  
+        height: auto;  
+    }
+    .main1-img{
+        padding: 50px 10px 0 30px;
+        text-align: center;
+    }
+    .main1-img img{
+        padding-top: 40px;
+        width: 400px;
+        height: 415px;
+    }
+    .main1-text{
+        padding: 10px 25px;
+       
+    }
+    .main1-text #name{
+        font-size: 46px;
+    }
+    .main1-text #last{
+        font-size: 46px;
+    }
+    @keyframes typing{
+        0%{
+            width: 0;
+        }
+        100%{
+            width: 60%;
+        }
+    }
+    .main1-text .button{
+        padding: 15px 30px;
+    }
+    #stroke {
+        font-size: 9rem; 
+    }
+    #stroke-overlap {
+        font-size: 47px;
+        bottom: 150px;
+    }
+    .about-content {
+        padding-top: 40px;
+    }
+    .about-img img {
+        width: 350px;
+        height: auto;
+        padding-top: 20px;
+    }
+    .about-head {
+      margin-left: 100px;
+      align-content: center;
+      text-align: center;
+    }
+    .about-img{
+        padding: 10px 0 10px 40px;
+       
+    }
+    .about-info {
+        flex-wrap: wrap;
+       
+    }
+    .about-info .info{
+        width: 90%;
+    }
+    .about-text{
+        padding: 50px 10px 0 20px;
+    }
+    .about-text h1 {
+        font-size: 29px; 
+    }
+
+    .about-text p {
+        width: 90%;
+        font-size: 16px; 
+    }
+    .quality-head {
+        align-content: center;
+        text-align: center;
+    }
+    #quality-stroke {
+        font-size: 9rem;
+    }
+    #quality-stroke-overlap {
+        font-size: 46px;
+        bottom: 150px;
+    }
+
+    /* Education Section */
+    .education h1 {
+        font-size: 29px;
+        padding-top: 90px;
+    }
+    .education-main {
+        padding: 0 40px;
+    }
+    .education-content .education-box {
+        width: 100%;
+    }
+
+    .education-details {
+        grid-template-columns: 1fr 1fr;
+    }
+    /* Project Section */
+    .Project-main {
+        padding: 0 30px;
+    }
+    .project h1{
+        font-size: 29px;
+    }
+    .Project-content {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .Project-box h1 {
+        font-size: 24px;
+    }
+
+    .Project-box h3 {
+        font-size: 18px;
+    }
+    .Project-box {
+        width: 90%;
+        height: auto;
+        margin-bottom: 10px;
+        margin: 20px 20px;
+    }
+    .Project-box p {
+        font-size: 14px;
+    }
+    .skill-head{
+        height: 230px;
+        align-content: center;
+        text-align: center;
+    }
+    #skill-stroke {
+        font-size: 9rem;
+    }
+    #skill-stroke-overlap {
+        font-size: 47px;
+        bottom: 150px;
+    }
+    .skill-name h1{
+        font-size: 30px;
+    }
+    .contact-head{
+        height: 190px;
+        padding: 20px 0 0 0;
+        align-content: center;
+        text-align: center;
+    }
+    #contact-stroke {
+        font-size: 9rem;
+    }
+    #contact-stroke-overlap {
+        font-size: 47px;
+        bottom: 150px;
+    }
+    .contact-form .input1{
+        width: 310px;
+    }
+    .contact-form .input2 {
+        width: 680px;
+    }
+    .contact-form button {
+        width: 130px;  
+    }
+    .logo-content h1 {
+        font-size: 12px;
+        padding: 0 5px;
+    }
+    .logo-main i {
+        font-size: 24px;
+        padding: 5px;
+    }
+    .logo {
+        height: 200px;
+    }
+}

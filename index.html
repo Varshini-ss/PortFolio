@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome To My Portfolio</title>
+    <link rel="shortcut icon" href="./Assets/Image/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./Assets/Css/style.css">
+    <link rel="stylesheet" href="./Assets/Css/responsive.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="head1">
+        <nav class="navbar">
+            <ul class="ul1">
+                <li class="li1">Port<span>Folio</span></li>
+                <li class="hide"><a class="active" href="#home">Home</a></li>
+                <li class="hide"><a href="#about">About</a></li>
+                <li class="hide"><a href="#qualification">Qualification</a></li>
+                <li class="hide"><a href="#skill">skills</a></li>
+                <li class="hide"><a href="#contact">contact</a></li>
+                <li class="li2 "><button>Hire Me</button></li>
+                <li class="menu" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" style="fill: rgb(15, 15, 15);"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path></svg></a></li>
+            </ul>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);"><path d="M19.002 3h-14c-1.103 0-2 .897-2 2v4h2V5h14v14h-14v-4h-2v4c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2V5c0-1.103-.898-2-2-2z"></path><path d="m11 16 5-4-5-4v3.001H3v2h8z"></path></svg></a></li>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#qualification">Qualification</a></li>
+                <li><a href="#skill">skills</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="home" class="main1">
+        <div class="main1-img">
+            <img src="./Assets/Image/img1.jpg" alt="photo">
+        </div>
+        <div class="main1-text">
+            <h1 id="first">I'm</h1>
+            <h1 id="name">Varshini SS</h1>
+            <h1 id="last">Fresher....</h1>
+            <a class="button" download="Varshini_S.S_Resume.png" href="./Assets/Image/Resume.png">Download CV</a>
+        </div>   
+    </main>
+    <section id="about" class="about">
+        <div class="about-head">
+            <h1 id="stroke">About</h1>
+            <h1 id="stroke-overlap">About me</h1>
+        </div>
+        <div class="about-content">
+            <div class="about-img">
+                <img src="./Assets/Image/img2.jpg" alt="photo2">
+            </div>
+            <div class="about-text">
+                <h1>Intro</h1>
+                <p>I'm an ambitious and curious individual who loves exploring new ideas and challenges. I thrive on continuous learning and enjoy applying creative problem-solving to both personal and professional projects. Whether collaborating with others or working independently, I value honesty, growth, and making a positive impact in every opportunity.</p>
+                <div class="about-info">
+                <div class="info">
+                   <p><span>Name:</span> Varshini SS</p>
+                   <p><span>Degree:</span> MCA</p>
+                   <p><span>Phone no:</span> 9043022033</p>
+                </div>
+                <div class="info">
+                    <p><span>Address:</span> Tharamani, Chennai-113</p>
+                    <p><span>Email:</span> mail2varshini2000@gmail.com</p>
+                    <p><span>Birthday:</span> 23 Aug 2000</p>
+                </div>
+        </div>
+    </section>
+    <section id="qualification" class="quality">
+        <div class="quality-head">
+            <h1 id="quality-stroke">Qualification</h1>
+            <h1 id="quality-stroke-overlap">Education & Projects</h1>
+        </div>
+        <div class="education-main">
+        <div class="education">
+            <h1>My Education</h1>
+        </div>
+        <div class="education-details">
+        <div class="education-content">
+            <div class="education-box">
+                <h1>SSLC</h1>
+                <h3>New Prince School | 2016 - 2017</h3>
+                <p>I have completed my 10th standard with 70%. 10th standard is a crucial academic milestone in 
+                   a student's education, serving as the foundation for higher studies. It includes core subjects
+                   like Mathematics, Science, Social Studies, and Languages</p>
+            </div>
+            <div class="education-box box2">
+                <h1>HSC</h1>
+                <h3>New Prince School | 2018 - 2019</h3>
+                <p>I have completed my 12th standard with 56%. 12th standard is a pivotal stage in a student's 
+                   academic journey, marking the completion of higher secondary education. It offers specialization 
+                   in streams like Science, Commerce, and Arts, shaping future career paths</p>
+            </div>
+        </div>
+        
+            <div class="education-content cont2  ">
+                <div class="education-box">
+                    <h1>BCA</h1>
+                    <h3>New Prince School | 2019 - 2022</h3>
+                    <p>I have completed my BCA with 90%. Bachelor of Computer Applications (BCA) is a three-year 
+                       undergraduate degree focused on computer science, software development, and IT technologies. 
+                       It covers subjects like programming Languages, databases, networking and web development.</p>
+                </div>
+                <div class="education-box box2">
+                    <h1>MCA</h1>
+                    <h3>New Prince School | 2022 - 2024</h3>
+                    <p>I have completed my 12th standard with 75%. Master of Computer Applications (MCA) is a 
+                       postgraduate degree focused on advanced computing, software development, and IT management. 
+                       It covers programming Languages, database management, networking and artificial intelligence. </p>
+                </div>
+            </div>
+            </div>
+            </div>
+        </div>
+        <div class="Project-main">
+            <div class="Project">
+                <h1>My Projects</h1>
+            </div>
+            <div class="Project-content">
+            <div class="Project-box">
+                <h1>Title: (Frontend) Image Gallery</h1> 
+                <hr>
+                <h3>Duration: 1 Months</h3>
+                <p>Description: This Traveler Image gallery website built using HTML, CSS, and JavaScript. 
+                    The goal of the project is to showcase the experience, adventure and review of many tourism spots. 
+                    The website includes sections for an about places, gallery images, contact form, etc.</p> 
+                <div class="probtn-container">
+                 <a class="probtn" href="">Project Link</a>
+                </div>
+            </div>
+            <div class="Project-box">
+                <h1>Title: (Frontend) Doctor Appointment</h1>    
+                <hr>
+                <h3>Duration: 1 Month</h3>
+                <p>Description: This Doctor Appointment Website allows patients to book appointments with healthcare professionals in a seamless, user-friendly interface. 
+                    The Website is designed to be responsive, easy to navigate includes sections for an about Docters, Booking form, contact etc.</p>
+                <div class="probtn-container">
+                    <a class="probtn" href="">Project Link</a>
+                </div>
+            </div>
+            <div class="Project-box">
+                <h1>Title: (SQL) Task Management System</h1>    
+                <hr>
+                <h3>Duration: 1 Month</h3>
+                <p>Description: The goal of this project is to manage the task, e.g., Insert and update data, analyze data, 
+                manage databases, optimize queries, build a view etc. It focuses on Task Management System using primary keys, 
+                case statement, procedure, subqueries etc.</p> 
+            </div>
+            <div class="Project-box">
+                <h1>Title: (SQL) Task Management System</h1>    
+                <hr>
+                <h3>Duration: 1 Month</h3>
+                <p>Description: The goal of this project is to manage the task, e.g., Insert and update data, analyze data, 
+                manage databases, optimize queries, build a view etc. It focuses on Task Management System using primary keys, 
+                case statement, procedure, subqueries etc.</p> 
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="skill" class="skill">
+        <div class="skill-head">
+            <h1 id="skill-stroke">Skills</h1>
+            <h1 id="skill-stroke-overlap">My Skills</h1>
+        </div>
+        <div class="skill-part">
+        <div class="skill-name">
+            <h1>Technical Skills</h1>
+        <div class="skill-main">
+            <div class="skill-cont">
+                <div class="skill-box">
+                    <i style="color: #c95d2e" class='bx bxl-html5'></i>
+                    <h3>HTML5</h3>
+                </div>
+                <div class="skill-box">
+                    <i style="color: rgb(83, 181, 242)" class='bx bxl-css3'></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-box">
+                    <i style="color: #f5e72d" class='bx bxl-javascript'></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-box">
+                    <i style= "color: #4532f3" class='bx bxl-bootstrap'></i>
+                    <h3>Bootstrap</h3>
+                </div>
+                <div class="skill-box">
+                    <i style="color: #39d6f6" class='bx bxl-react'></i>
+                    <h3>React</h3>
+                </div>
+                <div class="skill-box">
+                    <i style="color: #c95d2e" class='bx bxs-data'></i>
+                    <h3>SQL</h3>
+                </div>
+                <div class="skill-box">
+                    <i style= "color: #4532f3" class='bx bxl-java' ></i>
+                    <h3>Java</h3>
+                </div>
+                <div class="skill-box">
+                    <i style="color: #126806" class='bx bxl-spring-boot'></i>
+                    <h3>Spring-boot</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="contact-head">
+            <h1 id="contact-stroke">contact</h1>
+            <h1 id="contact-stroke-overlap">contact Me</h1>
+        </div>
+        <div class="contact-data">
+        <form class="contact-form">
+            <input class="input1" type="text" placeholder="Your Name">
+            <input class="input1" type="email" placeholder="Your Email"><br>
+            <input class="input2" type="text" placeholder="Subject"><br>
+            <textarea class="input2">Message</textarea>
+            <button>Send Message</button>
+        </form>
+    </section>
+    <section class="logo">
+        <div class="logo-main">
+            <i class='bx bxl-twitter'></i>
+            <i class='bx bxl-facebook' ></i>
+            <i class='bx bxl-linkedin' ></i>
+            <i class='bx bxl-instagram' ></i>
+        </div>
+        <div class="logo-content">
+            <h1>Privacy</h1>
+            <h1>Terms</h1>
+            <h1>FAQs</h1>
+            <h1>Help</h1>
+        </div>
+    </section>
+    <script src="./Assets/Js/script.js"></script>
+    </body>
+</html>
